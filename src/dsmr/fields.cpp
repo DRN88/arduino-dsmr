@@ -54,7 +54,7 @@ constexpr char units::MJ[];
 
 constexpr ObisId identification::id;
 constexpr char identification::name_progmem[];
-constexpr const __FlashStringHelper *identification::name;
+// REMOVED constexpr const __FlashStringHelper *identification::name;
 
 constexpr ObisId p1_version::id;
 constexpr char p1_version::name_progmem[];
